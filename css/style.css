@@ -1,0 +1,8 @@
+/* 
+    Para pobrar que realmente nuestro index.html este recibiendo los estilos
+    descomente el código de h1 tal cual esta y recargue nuestro index.html 
+    en cualquier navegador y vea el cambio de Hola mundo
+    h1{
+        background-color: aqua;
+    } 
+*/
