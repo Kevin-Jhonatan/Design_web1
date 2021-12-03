@@ -1,0 +1,42 @@
+.seccion {
+    text-align: center;
+    background-color: skyblue;
+}
+.left {
+    text-align: left;
+    background-color: yellowgreen;
+}
+.lema {
+    text-align: left;
+    background-color: tomato;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: #ffff;
+    margin: 80px 250px 80px 90px;
+    padding: 100px 10px;
+}
+.contact {
+    text-align: left;
+    background-color: #ffff;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    padding: 10px 30px;
+    display: inline;
+    text-decoration: none;
+    border-radius: 14px;
+    margin: 80px 140px;
+}
+
+.rigth {
+    text-align: right;
+}
+.imagen {
+    text-align: right;
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border:15px solid #ffff;
+    
+}
