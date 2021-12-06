@@ -1,0 +1,22 @@
+* {
+    background-color: #12C6BB;
+}
+.logo {
+    border: 22px;
+    border-radius: 22px 22px;
+}
+p {
+    background-color: rgb(135, 235, 235);
+    color: #ffff;
+    font-size: large;
+    
+}
+.imagen {
+
+}
+.letra {
+    font-size: x-large;
+}
+h1 {
+    font-size: 20px;
+}
