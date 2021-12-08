@@ -1,0 +1,131 @@
+body {
+  margin: 0 0 0 0;
+}
+
+.container {
+  display: flex;
+  display: block;
+  background-color: #63C1D6;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.container .left {
+  display: flex;
+  margin-top: 0;
+  margin: 0 0 0 0;
+}
+.container .left .lema {
+  /* display: inline-block; */
+  position: absolute;
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  color: #ffff;
+  margin: 0 0 0 0;
+  padding: 150px 0px 90px 120px;
+  font-size: xx-large;
+  top: 20px;
+}
+.container .left .contact {
+  display: inline-block;
+  position: absolute;
+  background: #ffff;
+  font-weight: bold;
+  font-family: "Varela Round", sans-serif;
+  color: #000000;
+  padding: 15px 35px;
+  display: inline;
+  text-decoration: none;
+  border-radius: 25px;
+  margin: 100px 250px;
+  box-shadow: 0px 7px 0px 0px rgba(3, 3, 3, 0.1);
+  top: 250px;
+}
+.container .right {
+  margin-top: 0;
+}
+.container .right .images {
+  position: relative;
+  background-repeat: no-repeat;
+  border: 15px solid #ffff;
+  left: 830px;
+  top: 100px;
+  width: 410px;
+  height: 400px;
+  border-radius: 100%;
+  box-shadow: 0px 20px 20px 0px gray;
+  background-image: url(../../image/tigre.jpg);
+  clear: both;
+}
+.container .container-figura {
+  height: 180px;
+  overflow: hidden;
+}
+.container .container-figura .figura {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 385px) {
+  .container .container {
+    display: block;
+    background-color: #63C1D6;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .container .container .left {
+    margin-top: 0;
+    margin: 0 0 0 0;
+  }
+  .container .container .left .lema {
+    position: absolute;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    color: #ffff;
+    margin: 0 0 0 0;
+    padding: 150px 0px 90px 120px;
+    font-size: xx-large;
+    top: 20px;
+  }
+  .container .container .left .contact {
+    display: inline-block;
+    position: absolute;
+    background: #ffff;
+    font-weight: bold;
+    font-family: "Varela Round", sans-serif;
+    color: #000000;
+    padding: 15px 35px;
+    display: inline;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 100px 250px;
+    box-shadow: 0px 7px 0px 0px rgba(3, 3, 3, 0.1);
+    top: 250px;
+  }
+  .container .container .right {
+    margin-top: 0;
+  }
+  .container .container .right .images {
+    position: relative;
+    background-repeat: no-repeat;
+    border: 15px solid #ffff;
+    left: 830px;
+    top: 100px;
+    width: 410px;
+    height: 400px;
+    border-radius: 100%;
+    box-shadow: 0px 20px 20px 0px gray;
+    background-image: url(../../image/tigre.jpg);
+    clear: both;
+  }
+  .container .container .container-figura {
+    height: 180px;
+    overflow: hidden;
+  }
+  .container .container .container-figura .figura {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
